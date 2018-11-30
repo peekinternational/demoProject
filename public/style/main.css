@@ -249,8 +249,6 @@ body#LoginForm{
 .descrption{
   padding: 20px 0;
 }
-
-
 @media screen and (max-width: 767px){
   .main-div{
     padding: 50px 30px 70px 30px;
