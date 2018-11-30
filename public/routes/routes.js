@@ -1,7 +1,4 @@
-/*
-* author  => Muhammad sajid
-* designBy => Muhammad sajid
-*/
+/* whole frontend angular routes are defiend below*/
 app.config(function($routeProvider) {
     $routeProvider
     .when("/", {

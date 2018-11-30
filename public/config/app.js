@@ -1,10 +1,7 @@
-/*
-* author  => Muhammad sajid
-* designBy => Muhammad sajid
-*/
 
+/* all dependencies you need pass in the array*/
 var dependencies = [
 "ngRoute"
 ]
-
-var app = angular.module("chatApp", dependencies);
+/* defiend app*/
+var app = angular.module("demoProject", dependencies);
