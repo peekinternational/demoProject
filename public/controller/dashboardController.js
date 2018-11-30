@@ -10,11 +10,12 @@ app.controller("dashController", function($scope, $http, $window, $location, $ro
             $scope.user = res.data;
             $http.get('http://winged-guild-133523.appspot.com/api/v1/projects/random?max=8')
             .then(function(res){
+                // console.log(res.data);
                 $scope.projects = res.data;
             })
             $http.get('http://winged-guild-133523.appspot.com/api/v1/items?categories=cat1&categories=cat2&promo=false')
             .then(function(res){
-                console.log(res.data);
+                // console.log(res.data);
                 $scope.products = res.data.data;
             })
         })
