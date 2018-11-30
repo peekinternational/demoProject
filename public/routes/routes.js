@@ -12,5 +12,8 @@ app.config(function($routeProvider) {
     })
     .when("/products", {
         templateUrl : "./views/products.html"
+    })
+    .when('/view-product',{
+        templateUrl : "./views/view-product.html"
     });
 });
